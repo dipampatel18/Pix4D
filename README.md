@@ -28,3 +28,41 @@ Planning a New Mission
 - DOUBLE GRID for 3D Models
 - CIRCULAR for Single 3D Model
 - FREE FLIGHT Advanced Users
+
+### Datum
+- Map to real-world location translation
+- Latitude, longitde and altitude coordinates
+- Anchor base point: locations on the Earth's surface
+
+### Coordinate System
+- Specification for every location on Earth
+- Numbers, letters, and symbols
+
+### Map Projection
+- Geodetic coordinates to plane coordinates
+- Projects datum ellipsoidal coordinates and height onto flat map
+- Grid system for plotting locations
+
+***
+
+### Pix4D Mapper Desktop Interface
+
+
+### Pix4D Outputs [name](url)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
