@@ -19,4 +19,12 @@ How Pix4D Works-
 - Use photographs and accurate measurement images
 - Mapped display of data based on photos and positions
 
-### 
+***
+
+### Pix4D App
+Planning a New Mission
+- POLYGON for 2D Maps
+- GRID for 2D Maps
+- DOUBLE GRID for 3D Models
+- CIRCULAR for Single 3D Model
+- FREE FLIGHT Advanced Users
