@@ -144,9 +144,15 @@ Planning a New Mission
 - Grid DSM and other formats would be generated if selected
 
 
-
-
-
+#### Sequoia
+Multispectral camera from Parrot used for Agricultural projects
+To measure the reflectance of different regions of the field
+- Modified 
+  - Broadband
+  - Digital filters
+- Multispectral
+  - Narrow bands
+  - Necessary radiometric data is provided
 
 
 
