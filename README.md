@@ -106,3 +106,71 @@ Planning a New Mission
 -Requirements
 - Reconstruction is of good quality
 - GCP
+
+
+### Self
+
+- Add GCPs manually - 2D GCP recommended from Google Coordinates
+- Add manual tie points for objects of interest and optimize it for the project to take into consideration
+
+
+### Merging the Projects
+- Create two projects to be merged - A , B
+- Process step-1 for both the projects
+- Add Manual Tie Points in A
+- Add the same MTPs in B (with the same name)
+- Reoptimize each project
+
+- Create a new project with the option 'Project merged from existing projects'
+- Choose to treat same objects with the same name as the same
+- Click Finish
+- Reoptimize and Generate quality report if needed
+- Further process
+
+### Editing the Mosaic
+- Under the mosaic editor, you get the option of editing the orthomosaic for regions where the perspective is unclear
+- Ortho projection and planar projection
+- The map pixels can be assigned colors using the projection
+- Draw your region 
+- Using the ortho projection, it will use the same algorithm as it was used to generate the orthomosaic in step-3, but use the images that were particularly selected by the user. Hence, improve the output
+- In planar, it is going to take a single image's content onto the desired region. Since, it will be a projection from a single image, the perspective is not going to be corrected, thus the distances will not be true. Used mostly for trees or objects of minimum interest
+- Band information and color mapping options available
+- Draw the region on the mosaic, and add a particular projection (and the images) to improve the mosaic
+
+-- Saving the Mosaic
+- Changes in Mosaic, affect the local copy and not exported
+- To output the modified mosaic, save and export- orthomosaic will be overwritten
+- Grid DSM and other formats would be generated if selected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
