@@ -152,9 +152,15 @@ To measure the reflectance of different regions of the field
 - Multispectral
   - Narrow bands
   - Necessary radiometric data is provided
+- The Processing Options Template would be 'Ag Multispectral'
 
-
-
+- Outputs
+  - Monochrome Imagery
+    - Reflectance Maps
+    - Index Maps
+    - Prescription Maps
+  - RGB Imagery
+    - Orthomosaic
 
 
 
