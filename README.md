@@ -13,7 +13,7 @@ Since I didn't have a drone, I manually collected nearly 1400 images using a Nik
 
 The processing of the images was performed on the Pix4D Cloud as it is faster and more efficient compared to the local machine. I followed the [YouTube Tutorial](https://www.youtube.com/watch?v=ZNKOWP8qAMY&list=PL8ZbncaV3f_anQs_DoyKUxmNDApxM0HT8&index=1) and a short course on [LinkedIn Learning](https://www.linkedin.com/learning/learning-pix4d-drone-mapping/drone-mapping?u=41910388). Anyone willing to learn it, I would highly recommend both the tutorials as they would provide s quick and easy tutorials on all different concepts and techniques.
 
-If you wish to try out the Testudo model, you can download the [Demo Video](), [Images]() and [Model]() and use them on the Pix4D trial version. In case you are loading the model in the software, the software would need the source images to properly load all model, so it is advised to download all the images and provide the software with the path of those images whenever prompted.
+If you wish to try out the Testudo model, you can [Download]() the Demo Video, Images and Model and use them on the Pix4D trial version. In case you are loading the model in the software, the software would need the source images to properly load all model, so it is advised to download all the images and provide the software with the path of those images whenever prompted.
 
 It is really fascinating to see the precision involved in matching the pixels (also called Tie Points in Pix4D) and thereby creating a realistic 3D model. It also has the feature to measure length, area or volume of a desired object/location. If the model has some pixels off their location, they can be readily edited as per our requirement.
 
