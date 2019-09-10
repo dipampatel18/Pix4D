@@ -12,7 +12,7 @@ Pix4D develops a suite of software products that use photogrammetry and computer
 Since I didn't have a drone, I manually collected nearly 1400 images using a Nikon D3200 DSLR Camera and opted for a Terrestrial option over Aerial. Since I wanted to create a model of Testudo located outside the McKeldin Library, I opted for the Pix4D Model instead of Pix4D Mapper as that would give better results for a model.
 
 <p align="center">
-  <img width="580" height="320" src="/Files/Testudo Image.JPG">
+  <img width="650" height="380" src="/Files/Testudo Image.JPG">
 </p>
 
 The processing of the images was performed on the Pix4D Cloud as it is faster and more efficient compared to the local machine. I followed the [YouTube Tutorial](https://www.youtube.com/watch?v=ZNKOWP8qAMY&list=PL8ZbncaV3f_anQs_DoyKUxmNDApxM0HT8&index=1) and a short course on [LinkedIn Learning](https://www.linkedin.com/learning/learning-pix4d-drone-mapping/drone-mapping?u=41910388). Anyone willing to learn it, I would highly recommend both the tutorials as they would provide s quick and easy tutorials on all different concepts and techniques.
@@ -20,7 +20,7 @@ The processing of the images was performed on the Pix4D Cloud as it is faster an
 If you wish to try out the Testudo model, you can [Download]() the Demo Video, Images and Model and use them on the Pix4D trial version. In case you are loading the model in the software, the software would need the source images to properly load all model, so it is advised to download all the images and provide the software with the path of those images whenever prompted. More technical details about the processing can be found in the Report.
 
 <p align="center">
-  <img width="580" height="320" src="/Files/Testudo Model.png">
+  <img width="650" height="380" src="/Files/Testudo 3D Model.png">
 </p>
 
 It is really fascinating to see the precision involved in matching the pixels (also called Tie Points in Pix4D) and thereby creating a realistic 3D model. It also has the feature to measure length, area or volume of a desired object/location. If the model has some pixels off their location, they can be readily edited as per our requirement.
