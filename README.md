@@ -1,12 +1,24 @@
 # Pix4D
-Creating a 3D Model and Map of University of Maryland using [Pix4D Tutorial](https://www.youtube.com/watch?v=ZNKOWP8qAMY&list=PL8ZbncaV3f_anQs_DoyKUxmNDApxM0HT8&index=1)
+Creating a 3D Model of the Mascot University of Maryland - The Testudo using [Pix4D](https://www.pix4d.com/)
 
 ### What can be done with Pix4D?
+Pix4D develops a suite of software products that use photogrammetry and computer vision algorithms to transform DSLR, fisheye, RGB, thermal and multispectral images into 3D maps and 3D model. It creates-
 - Point Cloud
 - 3D Mesh
 - Orthomosaic
 
-How Pix4D Works-
+## Modeling the Testudo
+
+Since I didn't have a drone, I manually collected nearly 1400 images using a Nikon D3200 DSLR Camera and opted for a Terrestrial option over Aerial. Since I wanted to create a model of Testudo located outside the McKeldin Library, I opted for the Pix4D Model instead of Pix4D Mapper as that would give better results for a model.
+
+The processing of the images was performed on the Pix4D Cloud as it is faster and more efficient compared to the local machine. I followed the [YouTube Tutorial](https://www.youtube.com/watch?v=ZNKOWP8qAMY&list=PL8ZbncaV3f_anQs_DoyKUxmNDApxM0HT8&index=1) and a short course on [LinkedIn Learning](https://www.linkedin.com/learning/learning-pix4d-drone-mapping/drone-mapping?u=41910388). Anyone willing to learn it, I would highly recommend both the tutorials as they would provide s quick and easy tutorials on all different concepts and techniques.
+
+If you wish to try out the Testudo model, you can download the [Demo Video](), [Images]() and [Model]() and use them on the Pix4D trial version. In case you are loading the model in the software, the software would need the source images to properly load all model, so it is advised to download all the images and provide the software with the path of those images whenever prompted.
+
+It is really fascinating to see the precision involved in matching the pixels (also called Tie Points in Pix4D) and thereby creating a realistic 3D model. It also has the feature to measure length, area or volume of a desired object/location. If the model has some pixels off their location, they can be readily edited as per our requirement.
+
+## How Pix4D Works
+
 ### Bundle Block Adjustment (BBA)
 - Camera's Position - External Camera (EO) and Internal Camera (IO) parameters are calculated
 - Determine the camera orientation based on the angles and perspectives
@@ -50,12 +62,7 @@ Planning a New Mission
 
 ***
 
-### Pix4D Outputs [name](url)
-
-***
-### Pix4D Mapper Desktop Interface
-
-#### Getting Started
+### Getting Started
 - Select as many images as you want for the project
 - The Coordinate System would be automatically selected. Most of the time, it would be WGS 1984. It can also be edited as per our requirement.
 - If the images are taken from a drone or a GPS enabled camera, the Geolocation and Orientation will be available under the Image Properties.
@@ -84,7 +91,7 @@ Planning a New Mission
 - RTK GPS Logger
 
 
-#### How many GCPs?
+### How many GCPs?
 - 3 at least
 - 5 - 8 per project recommended
 - Well spread out, near features of interest
@@ -94,15 +101,12 @@ Planning a New Mission
 -- If more than 10-12, convert them to checkpoint for accuracy assessment
 
 
-#### Methods of getting data
+### Methods of getting data
 - RTK GPS- 0.02 m accuracy
 - Consumer grade GPS- 5-10 m
 
-#### Adding GCPs in Project
--
 
-
-#### Measurements
+### Measurements
 -Requirements
 - Reconstruction is of good quality
 - GCP
@@ -143,7 +147,7 @@ Planning a New Mission
 - Grid DSM and other formats would be generated if selected
 
 
-#### Sequoia
+### Sequoia
 Multispectral camera from Parrot used for Agricultural projects
 To measure the reflectance of different regions of the field
 - Modified 
@@ -161,28 +165,3 @@ To measure the reflectance of different regions of the field
     - Prescription Maps
   - RGB Imagery
     - Orthomosaic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
