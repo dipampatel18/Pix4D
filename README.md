@@ -73,8 +73,8 @@ Planning a New Mission
 - The Processing Options would now be available and one or more can be selected to start with.
 
 ### Georeferencing
-//- Allows us to place the project on the earth. Can tell us where exactly was our project.
-//- It can provide scale and orientation
+- Allows us to place the project on the earth. Can tell us where exactly was our project.
+- It can provide scale and orientation
 - Situate the Project
 - Make measurements
 - Provide scale and orientation to the project
@@ -141,7 +141,7 @@ Planning a New Mission
 - Band information and color mapping options available
 - Draw the region on the mosaic, and add a particular projection (and the images) to improve the mosaic
 
--- Saving the Mosaic
+### Saving the Mosaic
 - Changes in Mosaic, affect the local copy and not exported
 - To output the modified mosaic, save and export- orthomosaic will be overwritten
 - Grid DSM and other formats would be generated if selected
